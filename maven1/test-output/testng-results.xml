@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="GroupsTesting" duration-ms="33" started-at="2018-07-19T05:22:33Z" finished-at="2018-07-19T05:22:33Z">
+  <suite name="Default suite" duration-ms="51" started-at="2018-07-19T10:48:01Z" finished-at="2018-07-19T10:48:01Z">
     <groups>
     </groups>
-    <test name="Groups" duration-ms="33" started-at="2018-07-19T05:22:33Z" finished-at="2018-07-19T05:22:33Z">
-      <class name="maven1.maven1.compilation">
-        <test-method status="PASS" signature="method1()[pri:0, instance:maven1.maven1.compilation@12f41634]" name="method1" duration-ms="9" started-at="2018-07-19T05:22:33Z" finished-at="2018-07-19T05:22:33Z">
+    <test name="Default test" duration-ms="51" started-at="2018-07-19T10:48:01Z" finished-at="2018-07-19T10:48:01Z">
+      <class name="maven1.maven1.rk">
+        <test-method status="PASS" signature="test()[pri:0, instance:maven1.maven1.rk@12f41634]" name="test" duration-ms="9" started-at="2018-07-19T10:48:01Z" finished-at="2018-07-19T10:48:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- method1 -->
-      </class> <!-- maven1.maven1.compilation -->
-    </test> <!-- Groups -->
-  </suite> <!-- GroupsTesting -->
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:maven1.maven1.rk@12f41634]" name="test1" duration-ms="1" started-at="2018-07-19T10:48:01Z" finished-at="2018-07-19T10:48:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- maven1.maven1.rk -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
